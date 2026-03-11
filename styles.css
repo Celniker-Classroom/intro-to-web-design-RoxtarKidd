@@ -1,12 +1,12 @@
 body{
-    color:aliceblue
+    color:aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
 h1{
     background-color: black;
     width: 800px;
-    margin 0 auto;
+    margin: 0 auto;
     padding: 30px;
     border-left: 3px double white;
     border-right: 3px double white;
