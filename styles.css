@@ -16,6 +16,22 @@ h2{
     text-align:center
 }
 
+#sidebar{
+    border-radius: 20px;
+    float: right;
+    margin: 30px 30 px 0 15 px
+}
+#sidebar h3{
+    border-left: none;
+    border-radius: 0;;
+}
+ul{
+    line-height: 3em;
+}
+li{
+    font-size: 1.1em
+}
+
 
 
 
