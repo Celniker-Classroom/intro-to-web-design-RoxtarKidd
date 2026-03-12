@@ -8,8 +8,8 @@ h1{
     width: 800px;
     margin: 0 auto;
     padding: 30px;
-    border-left: 3px double white;
-    border-right: 3px double white;
+    border-left: auto white;
+    border-right: auto white;
 }
 h2{
     font-size: 1.25em;
@@ -19,7 +19,14 @@ h2{
 #sidebar{
     border-radius: 20px;
     float: right;
-    margin: 30px 30 px 0 15 px
+    margin: 30px 30px 0 15px;
+}
+
+/* make sure headings clear floated sidebar */
+h2{
+    font-size: 1.25em;
+    text-align:center;
+    clear: both;
 }
 #sidebar h3{
     border-left: none;
