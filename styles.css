@@ -33,6 +33,8 @@ li{
 }
 
 .pics {
-    width: 500
+    width: 500px;
+    border:rgb(0, 0, 0) 3px solid;
+    
     
 }
