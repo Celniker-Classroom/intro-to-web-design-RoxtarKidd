@@ -34,6 +34,7 @@ li{
 
 .pics {
     width: 500px;
+    display: block;
     border:rgb(0, 0, 0) 3px solid;
     
     
