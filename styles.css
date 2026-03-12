@@ -62,3 +62,15 @@ li{
     
     
 }
+
+.center-box {
+    width: 600px;       /* or whatever fits your layout */
+    margin: 0 auto;     /* left/right auto centers the block */
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+/* 2. center all the text inside it */
+.center-box {
+    text-align: center;
+}
