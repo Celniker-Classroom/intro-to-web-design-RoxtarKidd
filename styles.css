@@ -3,30 +3,41 @@ head{
 }
 p{
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 body{
+    background-color: #00d9ff;
     color:rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
 h1{
-    background-color: rgb(0, 162, 255);
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     width: 800px;
     margin: 0 auto;
     padding: 30px;
-    border-left: 3px double white;
-    border-right: 3px double white;
+    border-left: 3px double rgb(255, 0, 0);
+    border-right: 3px double rgb(255, 0, 0);
+    text-align: center;
 }
 h2{
     font-size: 1.25em;
-    text-align:center
+    text-align:center;
+    color: black;
 }
+
 
 #sidebar{
     border-radius: 20px;
     float: right;
-    margin: 30px 100px 0 30px;
+    margin: 30px 150px 0 30px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    color: black;
+    padding-right: 20px;
 }
 
 /* make sure headings clear floated sidebar */
@@ -37,10 +48,12 @@ h2{
 }
 
 h3{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 183, 255);
     font-size: 1.3em;
     color: black;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #sidebar h3{
     border-left: none;
