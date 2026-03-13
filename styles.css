@@ -40,11 +40,11 @@ h2{
     padding-right: 20px;
 }
 
-/* make sure headings clear floated sidebar */
 h2{
     font-size: 1.25em;
     text-align:center;
     clear: both;
+    margin-bottom: 20px;
 }
 
 h3{
@@ -57,7 +57,9 @@ h3{
 }
 #sidebar h3{
     border-left: none;
-    border-radius: 0;;
+    border-radius: 0;
+    background-color: transparent;
+    text-align: center;
 }
 ul{
     line-height: 3em;
