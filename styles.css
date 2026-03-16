@@ -11,7 +11,11 @@ body{
     color:rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
+    align-items: center;
+    justify-content: center;
+
 }
+
 a {
     display: inline-block;
     text-align: center;
@@ -22,18 +26,26 @@ h1{
     clear: both;
     background-color: rgb(0, 183, 255);
     color: rgb(255, 255, 255);
-    width: 90%;
+    width: 25%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
+    padding-top: 18px;
     border-left: 3px double rgb(0, 183, 255);
     border-right: 3px double rgb(0, 183, 255);
-    border-radius: 20px;
+    border-radius: 300px;
     text-align: center;
+    font-family: "Kenia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
 }
+
 h2{
     font-size: 1.25em;
     text-align:center;
     color: black;
+    position: relative;
+    right: -80px;
 }
 
 
@@ -49,12 +61,14 @@ h2{
     padding: 10px;
     background-color: white;
     position: relative;
-    right: -175px;
+    right: -150px;
 }
 
 #content {
     margin-right: 250px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 h2{
@@ -67,13 +81,10 @@ h2{
 }
 
 h3{
-    background-color: rgb(0, 183, 255);
     font-size: 1.3em;
     color: black;
     text-align: center;
-    margin-left: 60px;
-    margin-right: 60px;
-    border-radius: 20px
+    
 
 }
 #sidebar h3{
@@ -134,4 +145,25 @@ a {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+#titles{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 183, 255);
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: solid black;
+    border-width: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: -20px;
+    padding-bottom: -20px;
+    border-radius: 300px;
+    font-family: "Kenia", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    
 }
