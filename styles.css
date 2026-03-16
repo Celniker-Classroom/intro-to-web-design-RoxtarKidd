@@ -48,6 +48,8 @@ h2{
     color: black;
     padding: 10px;
     background-color: white;
+    position: relative;
+    right: -175px;
 }
 
 #content {
@@ -61,6 +63,7 @@ h2{
     clear: both;
     margin-bottom: 10;
     margin-top: 10px;
+    padding: 50px;
 }
 
 h3{
@@ -126,4 +129,9 @@ a {
     font-family: Georgia, Times, Cambria, Cochin, 'Times New Roman', serif;
     text-align: center;
     background:rgb(0, 98, 155)
+}
+#Top-Stuff{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
