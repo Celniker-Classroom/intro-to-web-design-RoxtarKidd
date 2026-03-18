@@ -1,35 +1,47 @@
 head{
     text-align: center;
 }
-p{
-    text-align: center;
-    color: rgb(0, 0, 0);
+
+*{
+    box-sizing: border-box;
 }
 
 body{
     background-color: #b4f4ff;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
-    align-items: center;
-    justify-content: center;
-
+    padding: 0 12px;
 }
 
-a {
-    display: inline-block;
+p{
     text-align: center;
-    margin: 8px auto;
-    padding: 4px 8px;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
 }
+
+body a{
+    display: block;
+    text-align: center;
+    margin: 24px auto 0;
+    padding: 4px 8px;
+    color: rgb(0, 255, 42);
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Georgia, Times, Cambria, Cochin, 'Times New Roman', serif;
+    background: rgb(0, 98, 155);
+    width: fit-content;
+    max-width: 100%;
+}
+
 h1{
     clear: both;
     background-color: rgb(0, 183, 255);
     color: rgb(255, 255, 255);
-    width: 25%;
+    width: fit-content;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 10px;
-    padding-top: 18px;
+    padding: 10px 24px;
     border-left: 3px double rgb(0, 183, 255);
     border-right: 3px double rgb(0, 183, 255);
     border-radius: 300px;
@@ -42,42 +54,12 @@ h1{
 
 h2{
     font-size: 1.25em;
-    text-align:center;
-    color: black;
-    position: relative;
-    right: -80px;
-}
-
-
-#sidebar{
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    float: right;
-    width: 150px;
-    margin: 20px 20px 20px 0;
-    border: 3px solid black;
-    color: black;
-    padding: 10px;
-    background-color: white;
-    position: relative;
-    right: -150px;
-}
-
-#content {
-    margin-right: 250px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-h2{
-    font-size: 1.25em;
-    text-align:center;
+    color: black;
     clear: both;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    padding: 50px;
+    margin: 10px auto 0 auto;
+    padding: 20px;
+    max-width: 700px;
 }
 
 h3{
@@ -86,8 +68,38 @@ h3{
     margin-bottom: 0px;
     text-align: center;
     align-content: center;
-
 }
+
+#container{
+    background-color: transparent;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#Top-Stuff{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 24px auto 0;
+    min-height: 190px;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 150px;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: -24%;
+}
+
 #sidebar h3{
     border-left: none;
     border-radius: 0;
@@ -95,73 +107,41 @@ h3{
     text-align: center;
     margin: 0px;
 }
+
 ul{
     line-height: 3em;
     margin: 0;
+    padding-left: 20px;
 }
+
 li{
     font-size: 1.1em
 }
 
-.pics {
-    width: 500px;
+.pics{
+    width: 100%;
+    max-width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     border:rgb(0, 0, 0) 3px solid;
-
-    
-    
 }
 
-/* 2. center all the text inside it */
-.center-box {
+.center-box{
     text-align: center;
 }
 
-.content {
-    width: 800px;
+.content{
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
     padding:20px;
     background-color: transparent;
-
-}
-
-.container {
-    background-color: transparent;
-    width : 1200px;
-    margin: 0 auto;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
     text-align: center;
-    align-content: center;
 }
 
-a {
-    color: rgb(0, 255, 42);
-    text-decoration: underline;
-    font-weight: bold;
-    font-family: Georgia, Times, Cambria, Cochin, 'Times New Roman', serif;
-    text-align: center;
-    background:rgb(0, 98, 155);
-    width: fit-content;
-    max-width: 100%;
-    margin: 24px auto 0;
-    align-content: center;
-}
-#Top-Stuff{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: fit-content;
-    max-width: 100%;
-    margin: 24px auto 0;
-}
 .titles{
     display: flex;
     justify-content: center;
@@ -169,10 +149,6 @@ a {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    border-color: solid black;
-    border-width: 10px;
-    margin-left: 600px;
-    margin-right: 600px;
     border-radius: 300px;
     font-family: "Kenia", sans-serif;
     color: white;
@@ -184,5 +160,117 @@ a {
     width: fit-content;
     max-width: 100%;
     margin: 24px auto 0;
-    
+}
+
+@media (max-width: 1200px){
+
+@media (max-width: 1200px){
+
+#container{
+    max-width: 95%;
+}
+
+.content{
+    max-width: 700px;
+}
+
+.pics{
+    max-width: 450px;
+}
+
+#sidebar{
+    right: -8%;
+}
+
+}
+
+@media (max-width: 992px){
+
+#Top-Stuff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    min-height: 0;
+}
+
+#sidebar{
+    position: static;
+    width: 140px;
+}
+
+h1{
+    font-size: 42pt;
+}
+
+h2{
+    max-width: 600px;
+    padding: 16px;
+    margin: 0;
+}
+
+.content{
+    max-width: 650px;
+}
+
+.pics{
+    max-width: 400px;
+}
+
+}
+
+@media (max-width: 768px){
+
+#container{
+    padding: 20px 12px;
+    border-left: none;
+    border-right: none;
+}
+
+#Top-Stuff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    min-height: 0;
+}
+
+h1{
+    font-size: 32pt;
+    padding: 10px 18px;
+}
+
+h2{
+    font-size: 1.05em;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0;
+}
+
+.titles{
+    font-size: 18pt;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.content{
+    max-width: 100%;
+    padding: 10px;
+}
+
+.pics{
+    max-width: 100%;
+}
+
+#sidebar{
+    position: static;
+    width: 130px;
+    padding: 8px;
+}
+
+ul{
+    line-height: 2em;
+    padding-left: 16px;
+}
+
 }
