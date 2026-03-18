@@ -20,7 +20,7 @@ p{
     line-height: 1.6;
 }
 
-body a{
+a{
     display: block;
     text-align: center;
     margin: 24px auto 0;
@@ -32,6 +32,11 @@ body a{
     background: rgb(0, 98, 155);
     width: fit-content;
     max-width: 100%;
+
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
 }
 
 h1{
@@ -97,7 +102,8 @@ h3{
     background-color: white;
     position: absolute;
     top: 0;
-    right: -24%;
+    right: -10%;
+    margin-right: 5%;
 }
 
 #sidebar h3{
@@ -162,7 +168,6 @@ li{
     margin: 24px auto 0;
 }
 
-@media (max-width: 1200px){
 
 @media (max-width: 1200px){
 
@@ -178,9 +183,7 @@ li{
     max-width: 450px;
 }
 
-#sidebar{
-    right: -8%;
-}
+
 
 }
 
@@ -196,7 +199,7 @@ li{
 
 #sidebar{
     position: static;
-    width: 140px;
+    width: 150px;
 }
 
 h1{
@@ -264,7 +267,7 @@ h2{
 
 #sidebar{
     position: static;
-    width: 130px;
+    width: 150px;
     padding: 8px;
 }
 
