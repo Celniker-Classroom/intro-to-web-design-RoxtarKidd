@@ -25,27 +25,37 @@ a{
     text-align: center;
     margin: 1.5em auto 50px;
     padding: 0.3em 0.6em;
-    text-decoration: underline;
     font-weight: bold;
     font-family: Georgia, Times, Cambria, Cochin, "Times New Roman", serif;
+    color: rgb(0, 255, 0);
     background-color: rgb(0, 0, 0);
     width: fit-content;
     max-width: 100%;
-    animation: rainbowText 8s linear infinite;
     border-radius: 200px;
 }
 
-
-a:hover{
-    text-shadow: 0 0 0.4em rgba(255, 255, 255, 0.8);
+a:link{
+    animation: none;
+    text-decoration: underline;
 }
 
 a:visited{
+    animation: none;
     color: #b4f4ff;
+    text-decoration: none;
 }
 
+
+
+a:hover{
+    animation: rainbowText 8s linear infinite;
+    text-shadow: 0 0 0.4em rgba(255, 255, 255, 0.8);
+}
+    
+
 a:active{
-    color: white;
+    animation: none;
+    color: rgb(255, 255, 255);
 }
 
 .title-container{
