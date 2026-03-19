@@ -280,6 +280,12 @@ li{
     .pics{
         max-width: 300px;
     }
+
+    .paragraph-text,
+    .paragraph-text p{
+    text-align: center;
+}
+
 }
 
 @media (max-width: 768px){
@@ -322,4 +328,12 @@ li{
     left: 50%;
     transform: translateX(-50%) scale(0.8);
     width: 30%;
+    }
+
+
+
+    .paragraph-text,
+    .paragraph-text p{
+    text-align: center;
+}
 }
